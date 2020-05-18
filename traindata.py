@@ -26,6 +26,10 @@ model.add(Conv2D(128,(3,3))
 model.add(Activation('relu'))
 model.add(MaxPooling2D(pool_size=(3,3)))
 
+model.add(Conv2D(128,(3,3))
+model.add(Activation('relu'))
+model.add(MaxPooling2D(pool_size=(3,3)))
+
 
 
 
