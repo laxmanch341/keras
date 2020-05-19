@@ -3,7 +3,7 @@ import tensorflow as tf
 from keras.models import load_model
 
 CATEGORIES=['Dog','Cat']
-image='/home/testimages'
+image='/home/testimages/1001.jpg'
 
 
 def prepare(image):
